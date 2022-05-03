@@ -1,0 +1,12 @@
+* Para iniciar, necesitamos crear un archivo con la terminación .html
+
+*Poner base de etiquetas html  -> ! o html:5 + enter
+
+* Exiten dos tipos de etiquetas:
+    a) Tienen etiqueta de apertura y cierre
+    b) Tiene sólo etiqueta de apertura
+
+*Un archivo html se puede visualizar en explorador
+* dentro de las etiquetas head añadimos etiquetas de información o configuración de nuestro sitio
+
+*favicon
