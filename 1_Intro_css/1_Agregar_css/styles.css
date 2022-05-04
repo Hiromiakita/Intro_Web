@@ -1,3 +1,35 @@
+
+
+/* etiquetas de html */
+body {
+  margin: 50px;
+}
+
+p {
+  color: blue;
+}
+
+/* atributo class */
 .rojo {
   color: red;
+  text-align: center;
 }
+
+/* atributo id */
+#amarillo {
+  color: yellow;
+}
+
+#violeta {
+  color: purple;
+}
+
+.logo {
+  width: 300px;
+  height: 50px;
+}
+
+.navegador.principal {
+
+}
+
