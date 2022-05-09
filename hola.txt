@@ -1,0 +1,1 @@
+Este archivo fue creado con "touch" desde la terminal también es posible crearlo con "echo"

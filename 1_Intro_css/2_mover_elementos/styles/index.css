@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  background-color: purple;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.hijo {
+  width: 150px;
+  height: 150px;
+  border: 10px solid #333;
+  background-color: #030303;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
