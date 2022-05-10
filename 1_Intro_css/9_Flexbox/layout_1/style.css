@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrito {
+    width: 33vw;
+    height: 33vw;
+    background-color: rgb(94, 94, 164);
+    border: 1px black solid;
+}
+
+.contenedor-i {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
