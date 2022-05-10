@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: gray;
+}
+
+.box {
+    height: 80px;
+    width: 100px;
+    text-align: center;
+}
+.box-tipo-1{
+    background-color: white;
+}
+
+.box-tipo-2{
+    border: blue 4px solid;
+}
+
+.columna-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
