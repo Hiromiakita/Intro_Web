@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.par {
+    display: flex;
+    flex-direction: row;
+}
+.elemento {
+    border: 1px solid black;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.ele-1, .ele-7 {
+    height: 100%;
+}
+
+.ele-2, .par{
+    height: 80%;
+}
+
+.ele-3, .ele-6 {
+    height: 20%;
+}
+
+.ele-6{
+    width: 200px;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rosa {
+    background-color: pink;
+}
