@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 20% 50% 30%;
+    /* gap: 10px; */
+    /* padding: 10px; */
+    /* background-color: fuchsia; */
+}
+
+.elemento {
+
+    text-align: center;
+    padding: 20px;
+    border: 1px pink solid;
+    background-color: rgb(114, 155, 171);
+}
+
+.header {
+    grid-column: 1 / 4;
+}
+
+.aside {
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2 / 4;
+}
+
+.footer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* PENDIENTE  */
+/* boz-sizing */
+
+/* nombrar areas de grid */
