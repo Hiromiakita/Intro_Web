@@ -25,11 +25,11 @@
     /* Espacio horizontal */
     /* grid-column-start: 1;
     grid-column-end: 3; */
-    grid-column: 1 / span 3;
+    /* grid-column: 1 / span 3; */
 
     /* Espacio horizontal */
     /* grid-row-start: 1;
     grid-row-end: 3; */
-    grid-row: 1 / span 3;
-
+    /* grid-row: 1 / span 3; */
+    grid-area: 1 / 1 / span 4 / span 3;
 }
