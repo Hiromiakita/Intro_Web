@@ -5,11 +5,14 @@
 
 .contenedor {
     display: grid;
+    grid-template-columns: 20% 50% 10% auto;
     grid-template-rows: auto auto auto;
-    grid-template-columns: 20% 50% 30%;
     /* gap: 10px; */
     /* padding: 10px; */
     /* background-color: fuchsia; */
+    /* un dimensión */
+    grid-template-areas: 
+    'header . aside .' 'header main main main' 'header section footer footer';
 }
 
 .elemento {
@@ -20,18 +23,23 @@
 }
 
 .header {
-    grid-column: 1 / 4;
+    grid-area: header;
 }
 
 .aside {
-    /* grid-row-start: 2;
-    grid-row-end: 4; */
-    grid-row: 2 / 4;
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
+
+.section {
+    grid-area: section;
 }
 
 .footer {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-area: footer;
 }
 
 /* PENDIENTE  */
